@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+li {
+    list-style: none;
+}
+
+a:hover {
+    color: red;
+}
+
+.bg-check {
+    background-color: gray;
+}
+
+.position-rel {
+    position: relative;
+}
+
+.position-abs {
+    position: absolute;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.jcb {
+    justify-content: space-between;
+}
+
+.aic {
+    align-items: center;
+}
+
+.ofh {
+    overflow: hidden;
+}
+
+.h-0 {
+    height: 0;
+}
+
+.h100 {
+    height: 100px;
+}
+
+.h300 {
+    height: 300px;
+}
+
+.h200 {
+    height: 200px;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
