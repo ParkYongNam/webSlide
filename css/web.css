@@ -56,6 +56,31 @@ a:hover {
     height: 200px;
 }
 
+.w-100 {
+    width: 100%;
+}
+
+.w1200 {
+    width: 1200px;
+}
+
 .container {
-    width: 1000px;
-}햣 
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.swiper-wrapper {
+    width: 100000px;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yelllow;
+}
+
+.green {
+    background-color: green;
+}
