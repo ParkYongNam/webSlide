@@ -78,9 +78,29 @@ a:hover {
 }
 
 .yellow {
-    background-color: yelllow;
+    background-color: yellow;
 }
 
 .green {
     background-color: green;
+}
+
+.swiper-slide {
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.swiper-slide.act {
+    opacity: 1;
+    z-index: 9999999;
+}
+
+.swiper-slide>a {
+    display: flex;
+    /*rel에 높이가 설정되어있으면 자식들은 h%를 쓸수있다*/
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
 }
